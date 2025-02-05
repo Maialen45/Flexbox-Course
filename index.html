@@ -1,12 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang='en'>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset='UTF-8'>
+  <title></title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      margin: 0;
+      height: calc(100vh - 20px);
+      width: calc(100vw - 20px);
+      border: 10px solid red;
+      display: flex;
+    }
+    img {
+      margin: 10px;
+      height: 70px;
+      width: 120px;
+    }
+    .img2 {
+      align-self: center;
+    }
+  </style>
 </head>
+
 <body>
-    <h1>Hi Flexbox</h1>
-    <p>Some content</p>
+  <div class="container">
+    <img src= "https://picsum.photos/200/200" class="img1" alt="">
+    <img src= "https://picsum.photos/200/200" class="img2" alt="">
+    <img src= "https://picsum.photos/200/200" class="img3" alt="">
+  </div>
 </body>
-</html>
+
